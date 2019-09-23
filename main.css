@@ -1,0 +1,110 @@
+.nav a {
+color: #5a5a5a;
+font-size: 18px;
+font-weight: bold;
+padding: 14px 10px;
+text-transform: uppercase;
+}
+
+
+.nav li {
+    display: flex;
+}
+
+.pull-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+.jumbotron {
+background-image:url('https://images.wallpaperscraft.ru/image/bliki_krugi_svet_pyatna_raznocvetnyy_47476_1920x1080.jpg');
+
+
+height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.jumbotron .container {
+position: relative;
+top:170px;
+
+}
+
+.jumbotron h1 {
+color: #fff;
+font-size: 55px; 
+font-family: 'Shift', sans-serif;
+font-weight: bold;
+}
+
+.jumbotron p {
+font-size: 20px;
+color: #fff;
+}
+
+.info h2 {
+    color:#393c3d;
+    font-size:34px;
+    }
+
+.info p {
+    font-size: 30px;
+    
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: -20px;
+  margin-bottom: -80px;
+}
+
+.center-img1 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 170px;
+  }
+
+
+.row {
+    display: flex;
+  justify-content: space-around;
+}
+
+.learn-more_stolb  {
+
+    flex-direction: column;
+}
+
+.learn-more {
+background-color: #f7f7f7;
+display: flex; 
+flex-direction: row;
+    justify-content: space-around;
+}
+
+.learn-more h3 {
+font-family: 'Shift', sans-serif;
+font-size: 18px;
+font-weight: bold;
+}
+
+.learn-more a {
+color: #00b0ff;
+}
+.neigborhood-guides{
+background-color:#efefef;
+border-bottom:1px solid #dbdbdb;
+}
+.neighborhood-guides h2 {
+color:#393c3d;
+font-size:34px;
+}
+.neighborhood-guides p{
+font-size:30px;
+margin-bottom:13px;
+}
+
